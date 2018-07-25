@@ -1,0 +1,10 @@
+[pool-1-thread-2] 2017-12-23 01:57 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_09_53_01.csv
+[pool-1-thread-4] 2017-12-23 01:57 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_10_00_07.csv
+[pool-1-thread-3] 2017-12-23 01:57 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_10_00_07(1).csv
+[pool-1-thread-1] 2017-12-23 01:57 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_04_24_20.csv
+[main] 2017-12-23 01:57 PM INFO  com.herbeat.api.HerBeatApp.main(HerBeatApp.java:48) - Done.
+[pool-1-thread-3] 2017-12-23 02:14 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_10_00_07(1).csv
+[pool-1-thread-1] 2017-12-23 02:14 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_04_24_20.csv
+[pool-1-thread-2] 2017-12-23 02:14 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_09_53_01.csv
+[pool-1-thread-4] 2017-12-23 02:14 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:46) - Processing file: DrDutta_7Nov_User_Activity_Record_2017_11_07_10_00_07.csv
+[main] 2017-12-23 02:14 PM INFO  com.herbeat.api.HerBeatApp.main(HerBeatApp.java:48) - Done.

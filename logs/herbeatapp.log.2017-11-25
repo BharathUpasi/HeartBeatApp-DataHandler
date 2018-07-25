@@ -1,0 +1,204 @@
+[pool-1-thread-2] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_08_54_00.csv
+[pool-1-thread-12] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_12_42_01.csv
+[pool-1-thread-10] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_09_42_22.csv
+[pool-1-thread-11] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_10_19_00.csv
+[pool-1-thread-9] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_21_04_00.csv
+[pool-1-thread-8] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_20_15_00.csv
+[pool-1-thread-7] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_18_07_00.csv
+[pool-1-thread-10] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_09_42_22.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-6] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_16_15_00.csv
+[pool-1-thread-5] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_14_50_00.csv
+[pool-1-thread-3] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_10_08_00.csv
+[pool-1-thread-1] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: Arup_22Nov_User_phoneBattery_checking_2017-11-22_12_19_41.csv
+[pool-1-thread-4] 2017-11-25 05:00 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_12_37_00.csv
+[pool-1-thread-7] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_18_07_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-11] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_10_19_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-9] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_21_04_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-8] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_20_15_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-12] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_12_42_01.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-2] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_08_54_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-3] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_10_08_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-5] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_14_50_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-4] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_12_37_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-6] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_16_15_00.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-1] 2017-11-25 05:00 PM ERROR com.herbeat.api.FileIOWorker.run(FileIOWorker.java:317) - Exception for file: Arup_22Nov_User_phoneBattery_checking_2017-11-22_12_19_41.csv
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver 
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.herbeat.database.ConnectionManager.getConnection(ConnectionManager.java:22)
+	at com.herbeat.api.FileIOWorker.run(FileIOWorker.java:45)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[pool-1-thread-3] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_10_08_00.csv
+[pool-1-thread-12] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_12_42_01.csv
+[pool-1-thread-11] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_10_19_00.csv
+[pool-1-thread-10] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-08_09_42_22.csv
+[pool-1-thread-9] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_21_04_00.csv
+[pool-1-thread-8] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_20_15_00.csv
+[pool-1-thread-6] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_16_15_00.csv
+[pool-1-thread-7] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_18_07_00.csv
+[pool-1-thread-5] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_14_50_00.csv
+[pool-1-thread-1] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: Arup_22Nov_User_phoneBattery_checking_2017-11-22_12_19_41.csv
+[pool-1-thread-4] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_12_37_00.csv
+[pool-1-thread-2] 2017-11-25 05:08 PM INFO  com.herbeat.api.FileIOWorker.run(FileIOWorker.java:41) - Processing file: DrDutta_7Nov_EMAtime_Notification_Fired_2017-11-07_08_54_00.csv
